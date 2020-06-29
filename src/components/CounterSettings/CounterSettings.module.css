@@ -1,21 +1,20 @@
 ._wrapper {
-    min-height: 80rem;
+    min-height: 100%;
     background-color: #282c34;
     overflow: hidden;
 }
 
 ._container {
     max-width: 96rem;
-    min-height: 16rem;
+    min-height: 12rem;
     margin: 0 auto;
-    background-color: #0d1d25;
     overflow: inherit;
 }
 
 ._box {
     max-width: 40rem;
     min-height: 8rem;
-    margin: 8rem auto;
+    margin: 0 auto;
     padding: 1.6rem;
     border: 0.4rem solid rgba(81, 247, 255, 1);
     border-radius: 1.6rem;

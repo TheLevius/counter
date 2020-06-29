@@ -1,0 +1,33 @@
+._box {
+    height: 16rem;
+    padding: 1.6rem;
+    border: 0.4rem solid rgba(81, 247, 255, 1);
+    border-radius: 1.2rem;
+}
+
+._numberInputsBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    min-width: 32rem;
+    margin: 1.6rem auto;
+    color: rgba(81, 247, 255, 1);
+}
+
+._inputsSignHead {
+    text-align: left;
+    font-weight: 500;
+}
+
+._numberInputs {
+    width: 16rem;
+    padding: 0.2rem 0.8rem;
+    text-align: center;
+    font: normal 500 2rem/1 Roboto, Helvetica, Arial, sans-serif;
+    background-color: rgba(81, 247, 255, 1);
+}
+
+._numberInvalid {
+    background-color: rgba(255, 153, 153, 1);
+}

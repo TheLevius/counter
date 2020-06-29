@@ -1,0 +1,25 @@
+._controlPanel {
+    min-height: 8rem;
+    margin: 2.4rem auto 0;
+    padding: 2rem;
+    border: 0.4rem solid rgba(81, 247, 255, 1);
+    border-radius: 1.2rem;
+    white-space: nowrap;
+}
+
+._incBtn, ._resetBtn {
+    width: 12rem;
+    margin: 0 1.6rem;
+    padding: 0.6rem 0.4rem;
+    background-color: rgba(81, 247, 255, 1);
+    font-size: 4rem;
+    line-height: 1;
+    font-weight: 700;
+    border-radius: 0.8rem;
+    outline: none;
+
+}
+
+._unactive {
+    background-color: rgba(81, 247, 255, 0.4);
+}
